@@ -11,8 +11,8 @@ Here is a screenshot of what the website looked like:
 ![humberCurrentScreenshot](https://user-images.githubusercontent.com/107089079/217684532-0775f023-1cbe-46a8-b7d2-9c980710e79c.jpg)
 
 
-Here is a screenshot of what the new webiste:
-
+Here is a screenshot of what the new webiste looks like:
+![humberCurrentNewScreenshot](https://user-images.githubusercontent.com/107089079/217707136-08afa35d-fc48-4bda-98b9-69ca6375cd03.jpg)
 
 
 Here is the URL link to view the live page:
