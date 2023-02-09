@@ -44,7 +44,6 @@ body {
 
 .navList {
   display: inline-block;
-  color: #fff;
   display: flex;
   gap: 30px;
   font-size: 25px;
@@ -273,8 +272,11 @@ button {
 
 .fnavList {
   display: inline-block;
-  color: #fff;
   display: flex;
   gap: 30px;
   font-size: 25px;
+}
+
+.fnavList li a {
+  color: #fff;
 }
