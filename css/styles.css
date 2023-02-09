@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+.main {
+  margin: 0 auto;
+  width: 88%;
+}
+
+body {
+  background-image: url(../images/Rectangle\ 244.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* *************HEADER**************************************/
+.headerLogo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 15px;
+  flex-flow: row wrap;
+}
+
+.headerLogo a {
+  font-size: 20px;
+  color: #091f40;
+}
+
+.nav {
+  background-color: #091f40;
+  justify-content: space-between;
+  display: flex;
+  padding: 22px 49px;
+  flex-flow: row wrap;
+}
+
+.navList {
+  display: inline-block;
+  color: #fff;
+  display: flex;
+  gap: 30px;
+  font-size: 25px;
+}
+
+.navList li a {
+  color: #fff;
+}
+
+input {
+  display: inline-block;
+  background-color: #091f40;
+
+  border: none;
+  border-bottom: 3px solid #fff;
+  padding: 5px 10px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-flow: row wrap;
+}
+
+.icon {
+  font-size: 30px;
+  color: #fff;
+}
+
+.goldy {
+  padding: 8px 0;
+  background-color: #deb406;
+}
+.goldy2 {
+  padding: 4px 0;
+  background-color: #deb406;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+}
+
+/* Navbar */
+#dropdownMenu {
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+  max-width: 1280px;
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
+  margin: 1em;
+  color: black;
+  transition: opacity ease 250ms;
+}
+
+.column {
+  flex-shrink: 1;
+  flex-basis: 33.33%;
+}
+
+#dropdownMenu > .column > ul {
+  list-style: none;
+  padding: 0;
+}
+
+#navSections {
+  cursor: pointer;
+}
+
+.nav-section {
+  flex-shrink: 1;
+  margin-bottom: 20px;
+}
+
+.nav-section ul {
+  list-style: none;
+  display: grid;
+  padding-left: 17px;
+  grid-auto-flow: row;
+  gap: 10px;
+}
+
+.nav-section h3 {
+  margin: 10px 0;
+  color: #091f40;
+}
+
+.nav-section a {
+  text-decoration: none;
+  font-size: 1.3em;
+  display: block;
+  border-radius: 2px;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  margin: 0;
+}
+
+.hide {
+  display: none !important;
+}
+
+.highlight {
+  background-color: #deb406;
+}
+
+/* End of Navbar Section */
+
+/* *************SECTION**************************************/
+
+.listSearch {
+  padding-left: 36px;
+  padding-top: 16px;
+  padding-bottom: 15px;
+}
+
+.uxHead {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 40px;
+  color: #2b3544;
+  margin: 0 auto;
+  width: 88%;
+  margin-bottom: 30px;
+}
+/* *************MAIN**************************************/
+
+.mainflexContainer {
+  background-color: #efefeff0;
+  display: flex;
+  gap: 32px;
+  padding-bottom: 20px;
+  /* flex-flow: row wrap; */
+}
+
+.photo {
+  margin-top: 22px;
+  margin-left: 10px;
+  display: inline;
+  height: 302px;
+}
+
+.name {
+  padding-top: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #091f40;
+}
+.photeName p {
+  margin-left: 21px;
+}
+
+.studentText {
+  font-size: 20px;
+  padding-top: 22px;
+}
+
+.studentText p {
+  padding-right: 32px;
+}
+.studentBtn {
+  margin-top: 100px;
+}
+
+.uxBack p {
+  font-size: 30px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: #deb406;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 5px 19px;
+}
+/* ************SAMPLE WORKS************************* */
+.hd {
+  margin-top: 82px;
+}
+.sampleworks {
+  background-color: #091f40;
+  padding-left: 21px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.sampleworks p {
+  color: #fff;
+  font-size: 25px;
+}
+
+/* ************ WORK DIV************************* */
+
+.work {
+  display: flex;
+  background-color: #091f40;
+  flex-basis: 33.3%;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 26px;
+  padding-bottom: 37px;
+  margin-top: 22px;
+}
+
+/* ************FOOTER************************* */
+
+.fnav {
+  background-color: #091f40;
+  justify-content: space-between;
+  display: flex;
+  padding: 15px 49px;
+  flex-flow: row wrap;
+  margin-top: 51px;
+}
+
+.fnavList {
+  display: inline-block;
+  color: #fff;
+  display: flex;
+  gap: 30px;
+  font-size: 25px;
+}
