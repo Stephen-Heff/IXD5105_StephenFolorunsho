@@ -1,6 +1,6 @@
 # IXD5105_StephenFolorunsho
 
-Collaborated with UI/UX Designers and a content strategis to revamp the UX Design section for the Humber current Website.
+Collaborated with UI/UX Designers and a content strategist to revamp the UX Design section for the Humber current Website.
 
 UX Designers: 
 Hazim Ismail,
