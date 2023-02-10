@@ -10,8 +10,8 @@ Content Strategist:
 Daslin Small
 
 Web developers:
-Shavin Singh,
-Stephen Folorunsho
+Shavin Singh (JavaScript),
+Stephen Folorunsho (HTML, CSS)
 
 
 
