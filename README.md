@@ -18,7 +18,7 @@ Stephen Folorunsho (HTML, CSS)
 # Live Page
 Here is the URL link to view the live page:
 
-[https://stephen-heff.github.io/IXD5105_StephenFolorunsho/](https://rococo-licorice-837a34.netlify.app/)
+https://rococo-licorice-837a34.netlify.app/
 
 Here is a link to the current Humber Current site:
 
