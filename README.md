@@ -1,7 +1,9 @@
 # IXD5105_StephenFolorunsho
 
+
 Collaborated with UI/UX Designers and a content strategist to revamp the UX Design section for the Humber current Website.
 
+# Collaborator
 UX Designers: 
 Hazim Ismail,
 Vanessa Salvadora
@@ -13,15 +15,20 @@ Web developers:
 Shavin Singh (JavaScript) https://github.com/Singhmansingh,
 Stephen Folorunsho (HTML, CSS)
 
+# Live Page
 Here is the URL link to view the live page:
-Note: This web page is not repsonsive. For best viewing purposes you should have a 1440px width.
-https://stephen-heff.github.io/IXD5105_StephenFolorunsho/
+
+[https://stephen-heff.github.io/IXD5105_StephenFolorunsho/](https://rococo-licorice-837a34.netlify.app/)
+
+Here is a link to the current Humber Current site:
+
+https://www.humbercurrent.ca/
+
 
 Here is a link to Figma to see our process:
+
 https://www.figma.com/file/YcppdiVU5m5ClzgfzFRhv9/IXD5105?node-id=60%3A348&t=f25HPGyrlxXKVLsO-1
 
-Here is a link to the Humber Current site:
-https://www.humbercurrent.ca/
 
 Here is a screenshot of what the UX section of the website looked like:
 Note: You cannot click on a student to see their work.
