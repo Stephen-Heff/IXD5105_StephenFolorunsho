@@ -293,7 +293,7 @@ button {
     height: 159vh;
   }
   .main {
-    width: 90%; /* Adjust the width for tablet view */
+    width: 90%; 
   }
   .mainflexContainer {
     text-align: center;
@@ -322,13 +322,13 @@ button {
     padding-right: 10px;
     padding-bottom: 20px;
   }
-  /* Adjust other styles as needed for tablet view */
+ 
 }
 
 /* Mobile styles */
 @media (max-width: 480px) {
   .main {
-    width: 95%; /* Adjust the width for mobile view */
+    width: 95%; 
   }
   body {
     background-image: url(../images/Rectangle\ 244.png);
