@@ -17,8 +17,10 @@
 
 body {
   background-image: url(../images/Rectangle\ 244.png);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  height: 110vh;
 }
 /* *************HEADER**************************************/
 .headerLogo {
@@ -44,7 +46,6 @@ body {
 
 .navList {
   display: inline-block;
-  color: #fff;
   display: flex;
   gap: 30px;
   font-size: 25px;
@@ -185,7 +186,6 @@ input {
   display: flex;
   gap: 32px;
   padding-bottom: 20px;
-  /* flex-flow: row wrap; */
 }
 
 .photo {
@@ -273,8 +273,125 @@ button {
 
 .fnavList {
   display: inline-block;
-  color: #fff;
   display: flex;
   gap: 30px;
   font-size: 25px;
+}
+
+.fnavList li a {
+  color: #fff;
+}
+
+/* Tablet styles */
+@media (max-width: 768px) {
+
+  body {
+    background-image: url(../images/Rectangle\ 244.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 159vh;
+  }
+  .main {
+    width: 90%; /* Adjust the width for tablet view */
+  }
+  .mainflexContainer {
+    text-align: center;
+    display: block;
+    padding: 20px;
+  }
+  .name {
+    margin: 0 auto;
+  }
+  .textContainer {
+    display: block;
+  }
+  .link-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  .work {
+    display: block;
+    padding-top: 26px;
+    padding-bottom: 37px;
+    margin-top: 22px;
+  }
+  .items img {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+  /* Adjust other styles as needed for tablet view */
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .main {
+    width: 95%; /* Adjust the width for mobile view */
+  }
+  body {
+    background-image: url(../images/Rectangle\ 244.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180vh;
+  }
+  .mainflexContainer {
+    display: block;
+  }
+  .headerLogo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headerLogo a {
+    margin-bottom: 10px;
+  }
+
+  .nav {
+    padding: 10px;
+  }
+
+  .navList {
+    font-size: 18px;
+  }
+
+  .searchBox {
+    margin-top: 10px;
+  }
+
+  .textContainer {
+    align-items: center;
+  }
+
+  .photo {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .name {
+    font-size: 25px;
+  }
+
+  .studentText p {
+    padding-right: 0;
+  }
+
+  .studentBtn {
+    margin-top: 30px;
+  }
+
+  .work {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  .fnav {
+    padding: 10px;
+  }
+
+  .fnavList {
+    font-size: 18px;
+  }
 }
